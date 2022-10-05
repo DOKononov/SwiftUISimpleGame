@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4030AE7428E9905800C99ACB /* SwiftUISimpleGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AE7328E9905800C99ACB /* SwiftUISimpleGameApp.swift */; };
-		4030AE7628E9905800C99ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AE7528E9905800C99ACB /* ContentView.swift */; };
+		4030AE7628E9905800C99ACB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AE7528E9905800C99ACB /* GameView.swift */; };
 		4030AE7828E9905900C99ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4030AE7728E9905900C99ACB /* Assets.xcassets */; };
 		4030AE7B28E9905900C99ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4030AE7A28E9905900C99ACB /* Preview Assets.xcassets */; };
 		4030AE7D28E9905900C99ACB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030AE7C28E9905900C99ACB /* Persistence.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		4030AE7028E9905800C99ACB /* SwiftUISimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4030AE7328E9905800C99ACB /* SwiftUISimpleGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISimpleGameApp.swift; sourceTree = "<group>"; };
-		4030AE7528E9905800C99ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4030AE7528E9905800C99ACB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		4030AE7728E9905900C99ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4030AE7A28E9905900C99ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4030AE7C28E9905900C99ACB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4030AE7328E9905800C99ACB /* SwiftUISimpleGameApp.swift */,
-				4030AE7528E9905800C99ACB /* ContentView.swift */,
+				4030AE7528E9905800C99ACB /* GameView.swift */,
 				4030AE7728E9905900C99ACB /* Assets.xcassets */,
 				4030AE7C28E9905900C99ACB /* Persistence.swift */,
 				4030AE8128E9905900C99ACB /* Info.plist */,
@@ -147,7 +147,7 @@
 			files = (
 				4030AE7D28E9905900C99ACB /* Persistence.swift in Sources */,
 				4030AE8028E9905900C99ACB /* SwiftUISimpleGame.xcdatamodeld in Sources */,
-				4030AE7628E9905800C99ACB /* ContentView.swift in Sources */,
+				4030AE7628E9905800C99ACB /* GameView.swift in Sources */,
 				4030AE7428E9905800C99ACB /* SwiftUISimpleGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
